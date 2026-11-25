@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #root { height: 100%; }
+body {
+  margin: 0; background: #F5F5F5; color: #0F172A;
+  font-family: Montserrat, 'Trebuchet MS', system-ui, sans-serif; font-weight: 500;
+}
+h1, h2, h3, .font-display { font-family: 'Eras Bold ITC', Montserrat, 'Trebuchet MS', sans-serif; font-weight: 800; }
+
+:focus-visible { outline: 3px solid #00019A; outline-offset: 3px; border-radius: 6px; }
+.on-dark :focus-visible { outline-color: #FFDA59; }
+
+@keyframes flutuar { 0%,100% { transform: translateY(0) rotate(-1deg); } 50% { transform: translateY(-10px) rotate(1deg); } }
+.flutuar { animation: flutuar 4s ease-in-out infinite; }
+@keyframes pulso { 0%,100% { transform: scale(1); } 50% { transform: scale(1.04); } }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; }
+}
+.leaflet-container { font-family: inherit; }
+.pin { width: 28px; height: 28px; border-radius: 50% 50% 50% 0; transform: rotate(-45deg); border: 3px solid #00019A; }
+.skeleton { background: linear-gradient(90deg,#EAEAEA,#F5F5F5,#EAEAEA); background-size: 200% 100%; animation: shimmer 1.4s infinite; }
+@keyframes shimmer { to { background-position: -200% 0; } }

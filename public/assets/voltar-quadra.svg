@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:affinity="https://www.affinity.studio/" width="1036" height="273" viewBox="3438 2080 1036 273" version="1.1" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g id="Prancheta2" transform="matrix(1,0,0,1,-0.535433,0)">
+        <g transform="matrix(0.775491,0,0,0.746841,2924.94369,1185.879268)">
+            <g transform="matrix(1.204903,0,0,1,201.632216,1074.513098)">
+                <path d="M1316.083,227.261L1478.297,386.914L597.012,386.914L597.012,227.261L1316.083,227.261Z" style="fill:url(#_Linear13);stroke:rgb(78,88,255);stroke-width:24.63px;"/>
+            </g>
+            <g transform="matrix(1.128778,0,0,1.128778,191.876954,1091.258862)">
+                <circle cx="577.032" cy="257.217" r="146.319" style="fill:rgb(78,88,255);stroke:rgb(0,70,255);stroke-width:1.16px;"/>
+            </g>
+            <g transform="matrix(0.873482,0,0,1.170696,107.815405,-232.713457)">
+                <path d="M749.79,1381.6L888.99,1290.561L932.037,1290.561L832.63,1381.6L934.05,1467.259L880.489,1467.309L749.79,1381.6Z" style="fill:rgb(133,214,255);"/>
+            </g>
+            </g>
+        </g>
+    <defs>
+        <linearGradient id="_Linear13" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0,163.707847,-130.848564,0,1018.210704,285.699571)"><stop offset="0" style="stop-color:rgb(133,214,255);stop-opacity:1"/><stop offset="1" style="stop-color:rgb(78,88,255);stop-opacity:1"/></linearGradient>
+        </defs>
+</svg>
